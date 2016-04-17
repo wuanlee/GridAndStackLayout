@@ -7,7 +7,94 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <StackPanel Width="500" Margin="20,10,0,0" HorizontalAlignment="Left">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition>
 
-    </Grid>
+                </RowDefinition>
+
+                <RowDefinition>
+
+                </RowDefinition>
+
+                <RowDefinition>
+
+                </RowDefinition>
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*">
+
+                </ColumnDefinition>
+                <ColumnDefinition Width="2*">
+
+                </ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Grid.Row="0" Grid.Column="0" FontSize="24" Margin="0,0,0,20">
+                title1
+            </TextBlock>
+            <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Vertical" Margin="0,0,0,20">
+
+                <TextBlock TextWrapping="Wrap">
+                留言内容。留言内容。留言内容。留言内容。留言内容。留言内容。留言内容。留言内容。留言内容。留言内容。留言内容。留言内容。留言内容。留言内容。留言内容。留言内容。留言内容。留言内容。
+                </TextBlock>
+                <StackPanel Orientation="Horizontal">
+                    <Rectangle Fill="Green" Width="100" Height="20">
+
+                    </Rectangle>
+                    <Rectangle Fill="Black"  Width="100" Height="20">
+
+                    </Rectangle>
+                    <Rectangle Fill="Red" Width="100" Height="20">
+
+                    </Rectangle>
+                </StackPanel>
+            </StackPanel>
+            <!-- 1 row ends-->
+            <TextBlock Grid.Row="1" Grid.Column="0" FontSize="24">
+                title2
+            </TextBlock>
+            <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Vertical" Margin="0,0,0,20">
+
+                <TextBlock TextWrapping="Wrap">
+                留言内容。留言内容。留言内容。留言内容。留言内容。留言内容。留言内容。留言内容。留言内容。留言内容。留言内容。留言内容。留言内容。留言内容。留言内容。留言内容。
+                </TextBlock>
+                <StackPanel Orientation="Horizontal">
+                    <Rectangle Fill="Red" Width="100" Height="20">
+
+                    </Rectangle>
+                    <Rectangle Fill="Black"  Width="100" Height="20">
+
+                    </Rectangle>
+                    <Rectangle Fill="Blue" Width="100" Height="20">
+
+                    </Rectangle>
+                </StackPanel>
+            </StackPanel>
+            <!--2 row ends-->
+            <TextBlock Grid.Row="2" Grid.Column="0" FontSize="24">
+                title3
+            </TextBlock>
+            <StackPanel Grid.Row="2" Grid.Column="1" Orientation="Vertical" Margin="0,0,0,20">
+
+                <TextBlock TextWrapping="Wrap">
+                留言内容。留言内容。留言内容。留言内容。留言内容。留言内容。留言内容。留言内容。留言内容。留言内容。。留言内容。留言内容。留言内容。留言内容。留言内容。
+                </TextBlock>
+                <StackPanel Orientation="Horizontal">
+                    <Rectangle Fill="Blue" Width="100" Height="20">
+
+                    </Rectangle>
+                    <Rectangle Fill="Black"  Width="100" Height="20">
+
+                    </Rectangle>
+                    <Rectangle Fill="Yellow" Width="100" Height="20">
+
+                    </Rectangle>
+                </StackPanel>
+            </StackPanel>
+            <!--3 row ends-->
+        </Grid>
+    </StackPanel><!-- totle ends -->
 </Page>
